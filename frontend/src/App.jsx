@@ -1,12 +1,14 @@
-import './App.css'
+import { AppBar, Toolbar } from "@mui/material";
+import Typography from "@mui/material/Typography";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-function App() {
-
+export default function App() {
   return (
     <>
-      <h1>Welcome to shoppy</h1>
+      <Header />
+      <main></main>
+      <Footer />
     </>
-  )
+  );
 }
-
-export default App
